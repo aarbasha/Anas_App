@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('login', [AuthController::class, 'login']);
 
-Route::post('singup', [AuthController::class, 'singup']);
+Route::post('register', [AuthController::class, 'register']);
 
 Route::post('reset-password', [AuthController::class, 'resetPassword']);
 
